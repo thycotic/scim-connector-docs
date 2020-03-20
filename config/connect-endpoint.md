@@ -1,7 +1,7 @@
-[title]: # (SCIM Endpoints)
+[title]: # (Endpoint Connections)
 [tags]: # (connecting,configuration)
 [priority]: # (202)
-# SCIM Endpoints
+# SCIM Endpoint Connections
 
 The SCIM Connector application can connect to multiple SCIM endpoints at a time. Each SCIM endpoint has a defined set of required fields within the SCIM Connector but may also require additional steps from the third-party vendor endpoint.
 
