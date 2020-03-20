@@ -58,5 +58,5 @@ To manually install the SCIM Connector:
 
 When you click the __Settings__ menu item on the left, the Settings tab appears, providing the following set up options:
 
-   * See [Making a Secret Server Connction](https://thycotic.force.com/support/s/article/SS-INTG-EXT-SCIM-Connector#ConnectingtoSecretServer)
+   * See [Making a Secret Server Connection](https://thycotic.force.com/support/s/article/SS-INTG-EXT-SCIM-Connector#ConnectingtoSecretServer)
    * See [Making a SCIM Endpoint Connection](https://thycotic.force.com/support/s/article/SS-INTG-EXT-SCIM-Connector#SCIMEndpoints)
