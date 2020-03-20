@@ -1,6 +1,6 @@
 [title]: # (Default Install)
 [tags]: # (introduction)
-[priority]: # (105)
+[priority]: # (102)
 # Default Installation
 
 These are the instructions for using the setup.exe file.

@@ -1,6 +1,6 @@
 [title]: # (System Requirements)
 [tags]: # (minimum)
-[priority]: # (100)
+[priority]: # (101)
 # Minimum System Requirements
 
 To install and run the SCIM Connector as a Web application in your environment, Thycotic recommends installing the SCIM Connector on a server machine that meets at least these requirements.
