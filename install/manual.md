@@ -1,6 +1,6 @@
 [title]: # (Manual Install)
 [tags]: # (introduction)
-[priority]: # (106)
+[priority]: # (103)
 # Manual Installation
 
 To manually install the SCIM Connector:

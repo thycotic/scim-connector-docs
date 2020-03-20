@@ -9,6 +9,7 @@ This section covers the system Requirements and two available installation appro
 
 The following topics are available:
 
-* [System Requirements][inst/index.md]
-* [Default Installation of the SCIM Connector](inst/default.md)
-* [Manual Installation of the SCIM Connector](inst/manual.md)
+* [System Requirements](sys-req.md)
+* [Default Installation of the SCIM Connector](default.md)
+* [Manual Installation of the SCIM Connector](manual.md)
+* [SCIM Connector Limitations](constraints.md)
