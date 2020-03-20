@@ -1,7 +1,7 @@
-[title]: # (Third-Party Vendor)
+[title]: # (SCIM Integrations)
 [tags]: # (configuration)
 [priority]: # (500)
-# Third-Party Vendor Configuration
+# SCIM Connector Integrations
 
 This section reviews the configuration and use of the currently supported third-party vendors for the SCIM Connector.
 
