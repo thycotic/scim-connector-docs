@@ -3,11 +3,11 @@
 [priority]: # (102)
 # Default Installation
 
-These are the instructions for using the setup.exe file.
+These are the instructions for using the setup.msi file.
 
 ## Download the Installer
 
-Download the installer file at https://downloads.ss.thycotic.com/integrations/SCIMSetup.exe.
+Download the installer file at https://downloads.ss.thycotic.com/integrations/SCIMSetup.msi.
 
 ## Installation Steps
 
