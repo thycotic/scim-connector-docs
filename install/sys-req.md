@@ -14,7 +14,7 @@ To install and run the SCIM Connector as a Web application in your environment, 
 
 | Software | Details |
 | ----- | ----- |
-| OS | Windows Server 20212/2016/2019 |
+| OS | Windows Server 2012/2016/2019 |
 |  | IIS Enabled |
 | Framework | .NET 4.5.1 or later |
 | Browsers | Chrome, Edge, FireFox, IE |
