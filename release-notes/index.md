@@ -5,5 +5,5 @@
 
 This section includes the most recent SCIM Connector Release Notes.
 
-* [2.0 Release Notes - On-prem](2.0.md)
+* [2.0 Release Notes](2.0.md)
 

@@ -11,10 +11,9 @@ This section reviews the APIs that are used by the SCIM Connector application.
 
  Create Application User (POST)
 
- Modifies a resource with a set of client-specified changes
- (partial update) (PATCH)
+ Modify a resource with a set of client-specified changes (partial update) (PATCH)
 
- The Bulk endpoint allows you to perform multiple create, update, and delete operations using one request (BULK)
+ Create, modify and delete multiple endpoints using one request (BULK)
    >**Note:** This BULK endpoint only permits updates to the SCIM resources using the bulk request.
 
  Delete Application User (DELETE) SCIM Integrated Endpoints (GET)
@@ -36,6 +35,7 @@ This section reviews the APIs that are used by the SCIM Connector application.
  Ping (GET)
 
 ## Supported SCIM API Endpoints
+
  See [SCIM Standard](http://www.simplecloud.info/#Specification)
 
  Users (GET) <Base URL>/v2/users

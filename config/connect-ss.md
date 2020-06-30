@@ -8,9 +8,6 @@ An application account must be created in Secret Server prior to completing this
 1. In the SCIM Connector application, select the __Settings__ menu on the left.
 1. Select the __Secret Server__ tab at the top of the page:
 
-<!-- add an overview of the configuration  (mini-toc) 
-- add image
--->
 1. The Secret Server URL should be pre-populated:
 
 1. In the __Account Name__ section:

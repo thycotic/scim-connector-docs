@@ -13,7 +13,6 @@ Download the installer file at https://downloads.ss.thycotic.com/integrations/SC
 
 1. Using Local Administrator credentials, run the installation file. The installation dialog box opens:
 
-   ![install diag](images/install-diag.png "Installation welcome dialog")
 1. Accept the default installation location or select/specify a custom installation location.
 1. Click the __Licenses terms and conditions__ link to review the license terms.
 1. Select the __I agree to the License terms and conditions__ check box. The INSTALL button becomes enabled.
@@ -26,20 +25,12 @@ Download the installer file at https://downloads.ss.thycotic.com/integrations/SC
    1. IIS is restarted.
    1. The completed installation screen displays:
 
-      ![install complete](images/install-complete.png "SCIM Connector has been successfully installed")
-
       The following buttons are provided:
 
       * __Readme__ – Opens the Getting Started guide.
       * __Run__ – Closes the installer and immediately runs the SCIM Connector application.
       * __Finish__ – Closes the installer without running the SCIM Connector application.
-1. Click the __Run__ button. A registration page appears:
 
-   ![registration](images/reg.png "Registration dialog")
-1. Enter the registration details for the account.
-
-   >**Note**: This registration is only for accessing the SCIM Connector application on this machine and not for connecting to SS or a SCIM Endpoint, which are described later.
-1. Click __Register__. A Sign in page appears:
 
    ![sign in](images/sign-in.png "Sign In dialog")
 
