@@ -12,7 +12,7 @@ Download the installer file at:
 
 To manually install the SCIM Connector:
 
-1. Navigate to the Thycotic website and download the Installer Zip file for the SCIM Connector application.
+1. Download the Installer Zip file for the SCIM Connector application.
 1. Using Administrator credentials, unzip the contents of the __ZIP__ file into the IIS directory. For example, unzip the contents to `C:\inetpub\wwwroot\SCIMConnector`.
 
 1. Open IIS Manager to create a new application pool.
@@ -33,9 +33,6 @@ To manually install the SCIM Connector:
 
 1. Enter your Secret Server URL and credentials.
 
-<!-- add an overview of the configuration  (mini-toc) 
-- add image
--->
 
    >**Note**: The first user to login is automatically approved to access the Thycotic SCIM Connector. Additional users can be given access to the SCIM Connector later, but these other accounts require approval (from within Secret Server) before access is granted.
    >The URL for the Sign in page is `<Base URL>/SCIMConnector/`.
