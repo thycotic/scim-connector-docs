@@ -9,17 +9,13 @@ Below are the basic steps for entering the values for the SCIM endpoint.
 
 ## Making a SCIM Endpoint Connection
 
-1. In the SCIM Connector application, click the __+__ button in the top right of the page and select __Add Integration__.
-
-1. Alternatively, users can select the __Settings__ menu on the left, and navigate to the __SCIM Endpoint__ tab at the top of the page.
-
-<!-- add an overview of the configuration  (mini-toc) - add image -->
+1. In the SCIM Connector application you have two options to start the connection process for the Endpoints, you can either:
+   * Click the __+__ button in the top right of the page and select __Add Integration__.
+   * Or select the __Settings__ menu on the left, and navigate to the __SCIM Endpoint__ tab at the top of the page.
 
 1. Once you add an endpoint, the __SCIM Endpoint__ configuration page appears:  
 
-<!-- add an overview of the configuration  (mini-toc) - add image -->
-
-   1. Enter the following:
+1. Enter the following:
 
       * __Name__ text box: The friendly name you want to give to the endpoint connection.
       * __Username__ text box: The user account that should be used to connect to the endpoint.

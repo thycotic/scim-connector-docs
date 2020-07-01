@@ -15,7 +15,7 @@ For each file that is in the SQL directory:
 1. Copy the SQL statement.
 1. Execute it in Secret Server.
 
-1. Navigate to Reports | Add new report |Paste the SQL statement into the SQL report section.
+1. Navigate to __Reports | Add new report | Paste__ the SQL statement into the SQL report section.
 The Report name must be the same as the file name.
    * Report category:__<explain>__
    * Chart type: __None__
