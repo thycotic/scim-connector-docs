@@ -9,7 +9,7 @@ Before making a connection to Secret Server from the SCIM Connector application,
 
 ## Required Secret Server Configuration
 
-1. Create a new user in Secret Server.
+1. Create a new application account in Secret Server.
 2. Select the __Advanced__ option.
 3. Mark the account as an __Application Account__.  
 
