@@ -1,10 +1,9 @@
-[title]: # (Limitations)
+[title]: # (Implementation Considerations)
 [tags]: # (minimum)
 [priority]: # (105)
-# SCIM Connector Limitations
+# SCIM Connector Implementation Considerations
 
-There are limitations of the SCIM Connector application:
+There are expected error responses when using the SCIM Connector:
 
-* It does not currently support 'PATCH' calls from the SCIM standard.
-* It does not delete users. Secret Server does not delete users in order to maintain audit trails. As a result, when you delete a user with a SCIM call, it disables the user. The disabled user cannot be granted access to a container or group unless they are enabled again.
-* It throws an error if instructed to delete and already deleted user. Disabling (deleting) already disabled users (by ID) causes the SCIM Connector application to report a 404 error in the logs.
+* Secret Server does not delete users in order to maintain audit trails. As a result, when you delete a user with a SCIM call, it disables the user. The disabled user cannot be granted access to a container, privileged data or group unless they are enabled again.
+* Secret Server throws an error if instructed to delete and already deleted user. Disabling (deleting) already disabled users (by ID) will result in the SCIM Connector reporting a 404 error in the logs.
