@@ -12,18 +12,17 @@ This section will cover any other topics that might be relevant.
 
 ## Encrypted Configuration File
 
-* File Name: `Configurations.enc`
+* File Name: `settings.enc`
 * Default location: Application root directory
 
 ## Web.config file
 
-The `web.config` file contains information regarding endpoints and application configuration options:
+The `web.config` file contains encrypted information regarding endpoints and application configuration options:
 
 ```xml
 <appSettings>
     <add key="CONFIG_FILE_PATH" value="" />
-    <add key="CONFIG_FILE_NAME" value="Configurations.enc" />
-    <add key="CERT_NAME" value="CN=<Machine Name>" />
+    <add key="CONFIG_FILE_NAME" value="settings.enc" />
     <add key="LOG_PATH" value=" <Application Root File Path> \\Log" />
     <add key="NOTIFICATION_PATH" value="" />
     <add key="SCIM_BASE_URL" value="http:// <SCIM Server domain name or IP address>/SSI" />

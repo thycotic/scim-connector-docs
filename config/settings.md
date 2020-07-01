@@ -7,38 +7,11 @@ This topic reviews the existing __Settings__ options in SCIM Connector.
 
 To access, go to the navigation menu on the left and select __Settings__. On the __Settings__ page there are tabs at the top that can be used to view the different option sections.
 
-## Account Tab
-
-This section lists the details of the currently logged-in account. You can modify the existing information in each text box by selecting the __Edit__ link to the right.  
-
-![account tab](images/account-tab.png "Account tab settings")
-
-Complete the text boxes as follows:
-
-* __First name__: The first name of the account.
-* __Last name__: The last name for the account.
-* __Username__: The user name that will be used to log in to the SCIM Connector application.
-* __Password__: The password for the account that will be used to log in to the SCIM Connector application.
-
-## Users Tab
-
-This tab lists all the registered user accounts that have access to the SCIM Connector application, as well as listing the user accounts that can be approved or rejected for access. The __Users__ tab has two sections.  
-
-![users tab](images/users-tab.png "Users tab settings")
-
-* __Users Who Need Approval__: Includes a list of users that have requested access (which have registered for the SCIM Connector). Access requests can be __Approved__ or __Rejected__. On approval, the user is added to the list of approved users and they can log in.
-* __Approved Users for SCIM__: Allows for the deletion of an application user or allows another application user to modify the values for another user's settings. The available text boxes for editing are:
-  * __First name__: The first name of the account.
-  * __Last name__: The last name for the account.
-  * __Username__: The user name that will be used to log in to the SCIM Connector application.
-  * __Password__: The password for the account that will be used to log in
-        to the SCIM Connector application.
-
 ## Secret Server Tab
 
 This tab is used to connect to your instance of Secret Server.
 
-To communicate with Secret Server, the SCIM Connector application requires the connection information to your Secret Server. The base URL should point to the location where Secret Server is available by HTTPS, for instance `https://<ipaddress>/SecretServer/`.
+To communicate with Secret Server, the SCIM Connector application requires the connection information to your Secret Server. The base URL will point to the location where Secret Server is available by HTTPS, for instance `https://<ipaddress>/SecretServer/`.
 
 The Account Name is the name of the application account that was created in Secret Server. The password is the password associated with the Secret Server application account.
 
@@ -88,21 +61,21 @@ The Audit Logs can typically be accessed from the following location on the mach
 {
 "RequestURI": "http://localhost:54523/SSEndpoint",
 "Action": "Get",
-"User": "Sailpoint_Admin",
+"User": "MS-AD",
 "DateTime": "2019-03-09T04:41:26.2138238-05:00",
 "ResponseStatus": 200
 },
 {
 "RequestURI": "http://10.0.0.226:80/SSI/appuser",
 "Action": "Get",
-"User": " Sailpoint_Admin ",
+"User": "MS-AD",
 "DateTime": "2019-03-09T04:52:10.4888392-05:00",
 "ResponseStatus": 200
 },
 {
 "RequestURI": "http://10.0.0.226:80/SSI/Users",
 "Action": "Get",
-"User": " Sailpoint_Admin ",
+"User": "SLACK_Admin",
 "DateTime": "2019-03-09T04:52:10.8459354-05:00",
 "ResponseStatus": 200
 },

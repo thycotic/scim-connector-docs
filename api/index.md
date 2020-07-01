@@ -8,60 +8,129 @@ This section reviews the APIs that are used by the SCIM Connector application.
 ## Thycotic SCIM Connector API Commands
 
  Application Users (GET)
- 
+
  Create Application User (POST)
- 
+
+ Modify a resource with a set of client-specified changes (partial update) (PATCH)
+
+ Create, modify and delete multiple endpoints using one request (BULK)
+   >**Note:** This BULK endpoint only permits updates to the SCIM resources using the bulk request.
+
  Delete Application User (DELETE) SCIM Integrated Endpoints (GET)
- 
+
  SCIM Integrated Endpoint (use id) (GET)
- 
+
  Modify integrated Endpoint (PUT)
- 
+
  Create SCIM Integrated Endpoints (POST)
- 
+
  Delete SCIM Integrated Endpoints (Delete) Settings (GET)
- 
+
  Update Settings (POST)
- 
+
  Non-Expiring Tokens (POST)
- 
+
  Non-Expiring Tokens (DELETE) Logs (GET)
- 
+
  Ping (GET)
 
 ## Supported SCIM API Endpoints
 
- Users (GET) <Base URL>/v2/users 
- 
+ See [SCIM Standard](http://www.simplecloud.info/#Specification)
+
+ Users (GET) <Base URL>/v2/users
+
  User by ID (GET) <Base URL>/v2/users/<user id> 
- 
- Create User (POST) <Base URL>/v2/users 
- 
+
+ Create User (POST) <Base URL>/v2/users
+
  Update User by ID (PUT) <Base URL>/v2/users/<user id> 
- 
+
+ Update User by ID (PATCH) <Base URL>/v2/users/<user id> 
+
  Delete User by ID (DELETE) <Base URL>/v2/users/<user id> 
- 
- Groups (GET) <Base URL>/v2/groups 
- 
+
+ Groups (GET) <Base URL>/v2/groups
+
  Group by ID (GET) <Base URL>/v2/groups/<group id> 
- 
- Create Group (POST) <Base URL>/v2/groups 
- 
+
+ Create Group (POST) <Base URL>/v2/groups
+
+ Update Group (PATCH) <Base URL>/v2/groups/<group id> 
+
  Delete Group (DELETE) <Base URL>/v2/groups/<group id> 
- 
- Service provider configuration (GET)
- 
- Schemas (GET)
- 
- Resource Types (GET)
- 
- Containers (GET)
- 
- Container Permissions (GET)
- 
- Privilege Data (GET)
- 
- Privilege Data Permissions (GET)
+
+ Service provider configuration (GET)<Base URL>/v2/ServiceProviderConfig
+
+ Schemas (GET) <Base URL>/v2/schemas
+
+ Schemas (GET) <Base URL>/v2/schemas/user
+
+ Schemas (GET)<Base URL>/v2/schemas/Container
+
+ Schemas (GET)<Base URL>/v2/schemas/Group
+
+ Schemas (GET)<Base URL>/v2/schemas/ContainerPermission
+
+ Schemas (GET) <Base URL>/v2/schemas/PrivilegedDataPermission
+
+ Schemas (GET) <Base URL>/v2/schemas/PrivilegedData
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes/group
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes/User
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes/Container
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes PrivilegedDataPermission
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes/PrivilegedData
+
+ Resource Types (GET) <Base URL>/v2/ResourceTypes/ContainerPermission
+
+ Containers (GET) <Base URL>/v2/Containers
+
+ Containers (GET) <Base URL>/v2/Containers/<folder id>
+
+ Create Containers (POST) <Base URL>/v2/Containers
+
+ Update Containers (PUT) <Base URL>/v2/Containers/<folder id>
+
+ Delete Containers (Delete) <Base URL>/v2/Containers/<folder id>
+
+ Container Permissions (GET) <Base URL>/v2/ContainerPermissions
+
+ Create Container Permissions (POST) <Base URL>/v2/ContainerPermissions
+
+ Update Container Permissions (PUT) <Base URL>/v2/
+
+ ContainerPermissions/<folder permission id>
+
+ Delete Container Permissions (Delete) <Base URL>/v2/Container Permissions / <folder permission id>
+
+ Privilege Data (GET) <Base URL>/v2/PrivilegeData
+
+ Privilege Data (GET) <Base URL>/v2/PrivilegeData/<secret id>
+
+ Create Privilege Data (POST) <Base URL>/v2/PrivilegeData
+
+ Update Privilege Data (PUT) <Base URL>/v2/PrivilegeData/<secret id>
+
+ Delete Privilege Data (Delete) <Base URL>/v2/PrivilegeData/<secret id>
+
+ Privilege Data Permissions (GET) <Base URL>/v2/PrivilegeDataPermissions
+
+ Privilege Data Permissions (GET) <Base URL>/v2/PrivilegeDataPermissions/<secret permissions id>
+
+ Create Privilege Data Permissions (POST) <Base URL>/v2/PrivilegeDataPermissions
+
+ Update Privilege Data Permissions (PUT) <Base URL>/v2/PrivilegeDataPermissions/<secret permissions id>
+
+ Delete Privilege Data Permissions (Delete) <Base URL>/v2/PrivilegeDataPermissions/<secret permissions id>
+
+ Bulk (POST) <Base URL>/v2/bulk
 
 ## Supported Filters
 
