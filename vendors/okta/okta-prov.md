@@ -25,8 +25,9 @@
 1. Click __Add Application__.
 
    ![](images/1be304a7f8a05ec0980c26f243d119a2.png)
-1. Search for __SCIM 2.0__. Three different SCIM template applications, will be displayed each of the three authentication methods that you can use to
-connect to your SCIM implementation (Basic Auth, Header Auth, or OAuth Bearer Token).
+1. Search for __SCIM 2.0__.
+
+   >**Note:** Three different SCIM template applications, will be displayed each of the three authentication methods that you can use to connect to your SCIM implementation (Basic Auth, Header Auth, or OAuth Bearer Token).
 
    ![](images/150c00f3688d85a20b53603a4220a9bc.png)
 1. Select __SCIM 2.0 Test App__ (Header Auth).
