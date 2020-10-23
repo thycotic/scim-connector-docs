@@ -8,6 +8,7 @@ This document explains how to connect Okta with the SCIM Connector application f
 The following topic are available:
 
 * [Configuring an Okta Endpoint to Work with the SCIM Connector](config.md)
+* [Okta Provisioning](okta-prov.md)
 
 ## Resources
 
