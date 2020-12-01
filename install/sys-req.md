@@ -1,13 +1,13 @@
 [title]: # (System Requirements)
 [tags]: # (minimum)
-[priority]: # (101)
+[priority]: # (102)
 # Minimum System Requirements
 
 To install and run the SCIM Connector as a Web application in your environment, Thycotic recommends installing the SCIM Connector on a server machine that meets at least these requirements.
 
 | Hardware | Details |
 | ----- | ----- |
-| Storage  | 100 MB of free space |
+| Storage  | 300 MB of free space |
 | Drives | 7200 RPM IDE drives |
 | Processor | 2 GHz Pentium 4 CPU |
 | Memory | 4 GB RAM |
@@ -23,5 +23,5 @@ To install and run the SCIM Connector as a Web application in your environment, 
 
 ## Connectivity
 
-* Open HTTPS connection to SS
+* Open HTTPS connection to Secret Server
 * Open HTTPS connection to SCIM endpoints
