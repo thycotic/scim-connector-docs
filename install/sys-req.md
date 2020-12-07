@@ -12,16 +12,11 @@ To install and run the SCIM Connector as a Web application in your environment, 
 | Processor | 2 GHz Pentium 4 CPU |
 | Memory | 4 GB RAM |
 
+
 | Software | Details |
-| ----- | ----- |
+|----|----|
 | OS | Windows Server 2012/2016/2019 |
 |  | IIS Enabled |
 | Framework | .NET 4.5.1 or later |
 | Browsers | Chrome, Edge, FireFox, IE |
-
->**Note**: Valid Secret Server licenses: Professional or Platinum
-
-## Connectivity
-
-* Open HTTPS connection to Secret Server
-* Open HTTPS connection to SCIM endpoints
+| License  | Valid Secret Server licenses: Professional or Platinum  |
