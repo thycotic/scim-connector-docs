@@ -9,7 +9,9 @@ This section covers the system Requirements and two available installation appro
 
 The following topics are available:
 
+* [Getting Started](getting-start.md)
 * [System Requirements](sys-req.md)
-* [Default Installation of the SCIM Connector](default.md)
-* [Manual Installation of the SCIM Connector](manual.md)
-* [SCIM Connector Limitations](constraints.md)
+* [Account Permissions](account-permissions.md)
+* [Standard Installation](standard-installation-process.md)
+* [Advanced Installation](advanced-installation-process.md)
+* [Best Practices and Implementation Considerations](constraints.md)
