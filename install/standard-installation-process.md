@@ -7,7 +7,7 @@
 
 Download the installer file at:
 
-* https://thycoticdownloadsprod.blob.core.windows.net/ssintegrations/SCIMConnector/SCIMConnector.2.5.msi
+* [SCIM software download](https://thy.center/scim/link/SCIMdownload)
 
 ## Installing SCIM Connector
 
