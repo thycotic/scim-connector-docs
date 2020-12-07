@@ -1,7 +1,7 @@
-[title]: # (Architecture for SCIM 2.5)
+[title]: # (Architecture Diagrams)
 [tags]: # (architecture)
 [priority]: # (207)
-# Architecture for SCIM 2.5
+# Architecture Diagrams for SCIM 2.5
 
 This reference architecture is our best practice architecture/design for Thycotic Secret Server leveraging SCIM 2.5. We have
 provided high level communication requirements, which does not include Secret Server component specific communication.
@@ -14,7 +14,7 @@ Below is a high level summary of the design variations:
 * SS-SCIM-REF#01 - B-1 - SSC + SCIM
 * SS-SCIM-REF#01 - C-1 - Request Communication Flow
 
-## Definitionsfor SS-SCIM-REF#01 - A-1
+## Definitions for SS-SCIM-REF #01 - A-1
 
 * Customer isusing an on-premise installation of Secret Server installed in an on premise location with a
 dedicated system for the SCIM Connector. While the SCIM Connector can be installed on the same system as
@@ -22,7 +22,7 @@ Secret Server, this is not recommended for large production environments.
 * The SCIM Server Layer is your 3rd party SCIM Server installed in an on-premise location (Examples include
 Sailpoint IdentityIQ, PingIdentity, etc).
 
-### Requirements for SS-SCIM-REF#01 - A-1
+### Requirements for SS-SCIM-REF #01 - A-1
 
 * Outbound communication from your SCIM Server to the SCIM Connector is required for integration.
 * Outbound communication from your SCIM Connector to the SCIM Server is not required currently, but may be required in the future.
@@ -35,14 +35,14 @@ Server and SCIM Connector and between your SCIM Connector and Secret Server.
 
    ![A-1](images/ref1.png)
 
-## Definitions for SS-SCIM-REF#01 - A-2
+## Definitions for SS-SCIM-REF #01 - A-2
 
 * Customer isusing an on-premise installation of Secret Server installed in an on premise location with a
 dedicated system for the SCIM Connector. While the SCIM Connector can be installed on the same system as
 Secret Server, this is not recommended for large production environments.
 * The SCIM Server Layer is your 3rd party SCIM Server SaaS offering.
 
-### Requirements for SS-SCIM-REF#01 - A-2
+### Requirements for SS-SCIM-REF #01 - A-2
 
 * Outbound communication from your SCIM Server to the SCIM Connector is required for integration.
 * Outbound communication from your SCIM Connector to the SCIM Server is not required currently, but may be required in the future.
@@ -55,12 +55,12 @@ Secret Server, this is not recommended for large production environments.
 
    ![A-2](images/ref2.png)
 
-## Definitions for SS-SCIM-REF#01 - B-1
+## Definitions for SS-SCIM-REF #01 - B-1
 
 * Customer isusing SSC hosted in Azure with a dedicated system for the SCIM Connector installed in the customers Azure private cloud. SCIM Connector does not have an option to be installed on SSC application servers.
 * The SCIM Server Layer is your 3rd party SCIM Server SaaS offering.
 
-### Requirements for SS-SCIM-REF#01 - B-1
+### Requirements for SS-SCIM-REF #01 - B-1
 
 * Outbound communication from your SCIM Server to the SCIM Connector is required for integration.
 * Outbound communication from your SCIM Connector to the SCIM Server is not required currently, but may be required in the future.

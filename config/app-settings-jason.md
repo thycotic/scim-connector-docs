@@ -1,7 +1,7 @@
-[title]: # (App Settings .json)
+[title]: # (App Settings)
 [tags]: # (json)
 [priority]: # (204)
-# App Settings .json
+# AppSettings.json
 
 AppSettings.json can located in the `root\Responses` folder of the SCIM Connector Web Directory.
 

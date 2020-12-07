@@ -7,7 +7,7 @@ There are three files local to the SCIM Connector that contain important
 Settings and Configuration options: Web.config, Settings.enc, and
 AppSettings.json.
 
-**Web.config can be located in the root of the SCIM Connector Web Directory**
+The Web.config can be located in the root of the SCIM Connector Web Directory
 
 While the Web.Config contains standard web application information it also
 contains encrypted values that are required to decrypt the settings.enc. The
@@ -62,5 +62,3 @@ settings.enc is modified, decryption will fail, and the file will need to be del
    * SCIM Connector Secret ID
 
    * SCIM Connector Secret Folder ID
-
-dJj511YhAArtIskEbGEK4UKycONTAPGTaKdQTuqEGUQpr5aygCqzO4dGKlkCMOKE+pw2IviCRifFiuF3U3BOzAdldMdQWGp6u65EmRPSXv8F7rA9yDvtCrAd775F2vKSEvRFgjIdyfc5/MXMULH/cU4JrHHbJd+LX6EvdcXRtvieZYFC/hiEjnGA3E2E3RJGUtW/wCO4gR3VuIukcbKb6P+V/oQeObXZxEEki3JgwY2Q9WEbW8LpL+SHso+AHW8bX5SU/bQX+vgaLrhNgnEeHCzqRuPU3Knv8FKDf0PbrK2KC13DPYbnrn2FIxL89bfw6PRLCru1wxNfyTEEIg8HxvCefOOmGF+TL0fd19i6rt1vanyYPXUBhpCGg8udvkxWGuHc6ogoHQeeFOF8g09Dwm2jx060i4IKSRGOTwtShY7V6fahioQ5QpEuhDXHLnYs9ekuZHz+8Vc0Az43L1Ce+WiTKWq0qdPQ4Mj6/COeA482/CvaFoCcnAWqFFQQjBT6CwEX/ziK0ILp1rrVzIadNc4TdQNOTw7Kl7+pdqJRokWCwkR1A0baQuC6ZFu45DqIZRg+lynk7BrG7J/FnIPn3A==

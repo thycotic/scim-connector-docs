@@ -1,13 +1,13 @@
 [title]: # (Advanced Installation)
 [tags]: # (advanced, installation)
 [priority]: # (105)
-# Advanced Installation Process
+# Advanced Installation
 
 ## Download the Installer
 
 Download the installer file at:
 
-* https://thycoticdownloadsprod.blob.core.windows.net/ssintegrations/SCIMConnector/SCIMConnector.2.5.msi
+* [SCIM software download](https://thy.center/scim/link/SCIMdownload)
 
 The advanced Installation Process will use the Default Web Site.
 
