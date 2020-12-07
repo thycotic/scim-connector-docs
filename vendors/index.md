@@ -1,7 +1,7 @@
 [title]: # (SCIM Integrations)
 [tags]: # (configuration)
 [priority]: # (500)
-# SCIM Connector Integrations 2.5
+# SCIM Connector Integrations
 
 This section reviews the configuration and use of the currently supported third-party vendors for the SCIM Connector.
 SCIM is a standard for automating the exchange of user identity information between identity domains, or IT systems. Secret Server is fully SCIM compatible today, so any 3rd party product that supports SCIM can talk to Secret Server out-of-the-box. Leveraging the SCIM connector allows Secret Server to be fully SCIM compatible.

@@ -1,7 +1,7 @@
 [title]: # (Standard Installation)
 [tags]: # (standard, installation)
 [priority]: # (104)
-# Standard Installation Process
+# Standard Installation
 
 ## Download the Installer
 

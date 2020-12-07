@@ -3,13 +3,13 @@
 [priority]: # (201)
 # SCIM Connector User Interface
 
-### Home page
+## Home page
 
 The home page provides information regarding the SCIM Standard and SCIM Version that is supported by the SCIM Connector including SCIM extensions
 
    ![Home page](images/2792ae87b6bfe79fd7922ce628c1277f.png)
 
-### Messages
+## Messages
 
 The Messages page displays information regarding real time events that are occurring. This same information is written to the SCIM Connector log(s) that can be found in the SCIMConnector\Log directory on the IIS Server where the SCIM Connector is installed, for example `C:\inetpub\wwwroot\SCIMConnector\Log`.
 
@@ -17,7 +17,7 @@ Use this page to view the success or failure of requests made to the SCIM Connec
 
    ![Messages](images/f0e0335557734c52098af41a49bdf4a2.png)
 
-### Settings
+## Settings
 
 The Settings tab contains three views: Secret Server, SCIM Connector
 Endpoints, and Configuration Settings.
@@ -37,7 +37,7 @@ After clicking the save button, a __Connection Successful…__ message will appe
 
    ![Settings](images/6d5036bb177abc05f58de12243d8de17.png)
 
-### SCIM Connector Endpoint Information
+## SCIM Connector Endpoint Information
 
 The SCIM Connector Endpoints view is used to configure information regarding what endpoints will communicate through the SCIM Connector.
 

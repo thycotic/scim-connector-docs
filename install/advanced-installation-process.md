@@ -1,7 +1,7 @@
 [title]: # (Advanced Installation)
 [tags]: # (advanced, installation)
 [priority]: # (105)
-# Advanced Installation Process
+# Advanced Installation
 
 ## Download the Installer
 
